@@ -20,8 +20,16 @@
 
 # print(brojevi)
 
-product=["Phone", "Tv", "Computer"]
-price=[155.95, 180.35, 199.9]
+# product=["Phone", "Tv", "Computer"]
+# price=[155.95, 180.35, 199.9]
 
-for i in range(len(product)):
-    print(product[i], price[i])
+# for i in range(len(product)):
+#     print(product[i], price[i])
+
+automobili = ["Audi", "BMW", "Yugo", "Citroen", "Kia", "Peugeot"]
+
+for i in range(len(automobili)):
+    print("Automobil:", automobili[i], end=" ")
+    if i==3:
+        print("Aleksandra vozi automobil:",automobili[i],end="")
+    print()
